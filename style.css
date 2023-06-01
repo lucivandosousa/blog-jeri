@@ -7,30 +7,71 @@ body {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Anderps_067.JPG');
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
 }
 
 .card {
   border-radius: 15px;
   text-align: center;
   padding: 40px;
-  color: #ffffff;
+  color: #000000;
   margin: 20px;
 }
 
-p {
+.card h2 {
   margin-bottom: 10px;
 }
 
-a {
+.card p {
+  margin-bottom: 10px;
+}
+
+.card a {
   padding: 15px;
   background-color: #333333;
   border-radius: 15px;
   color: #ffffff;
   text-decoration: none;
-  transition: 1s;
 }
 
-a:hover {
+.card a:hover {
   background-color: blue;
+}
+
+@media screen and (max-width: 320px) {
+  .card {
+    padding: 0 5px;
+  }
+
+  .card h1 {
+    font-size: 24px;
+  }
+
+  .card h2 {
+    font-size: 16px;
+  }
+
+  a {
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .card {
+    padding: 0 5px;
+  }
+
+  .card h1 {
+    font-size: 24px;
+  }
+
+  .card h2 {
+    font-size: 16px;
+  }
+
+  a {
+    padding: 10px;
+    font-size: 12px;
+  }
 }
