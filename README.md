@@ -5,3 +5,7 @@
 &nbsp;
 
 Página simples criada para testar a hospedagem do github pages.
+
+&nbsp;
+
+Acesse: https://lucivandosousa.github.io/blog-jeri/
