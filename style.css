@@ -18,6 +18,10 @@ body {
   margin: 20px;
 }
 
+.card h1 {
+  margin-bottom: 10px;
+}
+
 .card h2 {
   margin-bottom: 10px;
 }
@@ -51,6 +55,10 @@ body {
     font-size: 16px;
   }
 
+  .card p {
+    font-size: 12px;
+  }
+
   a {
     padding: 10px;
     font-size: 12px;
@@ -68,6 +76,10 @@ body {
 
   .card h2 {
     font-size: 16px;
+  }
+
+  .card p {
+    font-size: 12px;
   }
 
   a {
